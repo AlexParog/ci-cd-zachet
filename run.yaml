@@ -1,0 +1,8 @@
+name: ci-cd-zachet-script
+on: push
+jobs:
+  first-job:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: printHelloWorld
+        run: echo "Hello World!"
